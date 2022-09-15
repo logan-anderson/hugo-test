@@ -1,0 +1,19 @@
+{
+  "name": "hugo-quickstart",
+  "version": "1.0.0",
+  "description": "This is a hugo app which doesn't have Tina (or even a package.json) installed. To set it up, use `tina init`:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tinacms/cli": "0.0.0-20220914230554",
+    "styled-components": "^5.3.5",
+    "tinacms": "0.0.0-20220914230554",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
