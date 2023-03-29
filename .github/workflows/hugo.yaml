@@ -54,7 +54,7 @@ jobs:
         env:
            TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
            TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-        run: npx tinacms build && rm static/admin/.gitignore
+        run: npx tinacms build
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -81,5 +81,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-
-        
